@@ -1,11 +1,11 @@
-package P10_NumbersInWords.domain;
+package P10_NumbersInWords.ru.otus.domain;
 
-import P10_NumbersInWords.dictionary.NumberDictionary;
-import P10_NumbersInWords.dictionary.sub_dictionaries.CountObjectQuantitativeFormSelector;
-import P10_NumbersInWords.dictionary.sub_dictionaries.CurrencyDictionary;
-import P10_NumbersInWords.dictionary.sub_dictionaries.NumberClassesDictionary;
-import P10_NumbersInWords.services.CountObject;
-import P10_NumbersInWords.services.Currency;
+import P10_NumbersInWords.ru.otus.dictionary.NumberDictionary;
+import P10_NumbersInWords.ru.otus.dictionary.sub_dictionaries.CountObjectQuantitativeFormSelector;
+import P10_NumbersInWords.ru.otus.dictionary.sub_dictionaries.CurrencyDictionary;
+import P10_NumbersInWords.ru.otus.dictionary.sub_dictionaries.NumberClassesDictionary;
+import P10_NumbersInWords.ru.otus.services.CountObject;
+import P10_NumbersInWords.ru.otus.services.Currency;
 
 import java.util.List;
 
@@ -24,6 +24,7 @@ public class NumberToTextConverter {
 
     //todo реализовать интерфейс Converter с методом Convert. Использовать его для всех классов конвертеров
     public String convert(long number, Currency currency) {
+
         NumberClassesDictionary numberClassesDictionary = this.numberDictionary.getNumberClassesDictionary();
         CountObjectQuantitativeFormSelector countObjectQuantitativeFormSelector = this.numberDictionary.getCountObjectQuantitativeFormSelector();
 

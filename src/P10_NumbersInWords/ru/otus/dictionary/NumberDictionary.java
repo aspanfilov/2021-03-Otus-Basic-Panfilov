@@ -1,8 +1,7 @@
-package P10_NumbersInWords.dictionary;
+package P10_NumbersInWords.ru.otus.dictionary;
 
-import P10_NumbersInWords.dictionary.sub_dictionaries.*;
-import P10_NumbersInWords.services.Currency;
-import P10_NumbersInWords.services.Lang;
+import P10_NumbersInWords.ru.otus.dictionary.sub_dictionaries.*;
+import P10_NumbersInWords.ru.otus.services.Lang;
 
 public class NumberDictionary {
 

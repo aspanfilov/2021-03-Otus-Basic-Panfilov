@@ -1,4 +1,4 @@
-package P10_NumbersInWords.api.services;
+package P10_NumbersInWords.ru.otus.api;
 
 public interface Converter {
 

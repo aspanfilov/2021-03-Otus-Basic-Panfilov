@@ -1,7 +1,7 @@
-package P10_NumbersInWords.domain;
+package P10_NumbersInWords.ru.otus.domain;
 
-import P10_NumbersInWords.dictionary.NumberDictionary;
-import P10_NumbersInWords.services.CountObject;
+import P10_NumbersInWords.ru.otus.dictionary.NumberDictionary;
+import P10_NumbersInWords.ru.otus.services.CountObject;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -20,6 +20,7 @@ public class NumberClassToTextConverter {
 
     }
 
+    //todo boolean countObjectOutputRequired
     public String convert(int number, CountObject countObject) {
         //todo заменить строку на stringBuilder
         String numberInWords = "";
