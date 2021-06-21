@@ -1,4 +1,4 @@
-package P10_NumbersInWords.domain;
+package P10_NumbersInWords.ru.otus.domain;
 
 public class NumberDigitHandler {
 

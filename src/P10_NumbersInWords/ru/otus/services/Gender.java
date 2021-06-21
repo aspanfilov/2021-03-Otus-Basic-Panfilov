@@ -1,4 +1,4 @@
-package P10_NumbersInWords.services;
+package P10_NumbersInWords.ru.otus.services;
 
 public enum Gender {
     MALE,

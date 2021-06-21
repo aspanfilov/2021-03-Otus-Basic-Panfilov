@@ -1,8 +1,8 @@
-package P10_NumbersInWords.dictionary.sub_dictionaries;
+package P10_NumbersInWords.ru.otus.dictionary.sub_dictionaries;
 
-import P10_NumbersInWords.services.Lang;
-import P10_NumbersInWords.services.Gender;
-import P10_NumbersInWords.services.CountObject;
+import P10_NumbersInWords.ru.otus.services.Lang;
+import P10_NumbersInWords.ru.otus.services.Gender;
+import P10_NumbersInWords.ru.otus.services.CountObject;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,8 +1,8 @@
-package P10_NumbersInWords.domain;
+package P10_NumbersInWords.ru.otus.domain;
 
-import P10_NumbersInWords.dictionary.*;
-import P10_NumbersInWords.dictionary.sub_dictionaries.*;
-import P10_NumbersInWords.services.CountObject;
+import P10_NumbersInWords.ru.otus.dictionary.*;
+import P10_NumbersInWords.ru.otus.dictionary.sub_dictionaries.*;
+import P10_NumbersInWords.ru.otus.services.CountObject;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

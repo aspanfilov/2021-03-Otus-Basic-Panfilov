@@ -1,4 +1,4 @@
-package P10_NumbersInWords.domain;
+package P10_NumbersInWords.ru.otus.domain;
 
 import java.util.ArrayList;
 import java.util.List;
